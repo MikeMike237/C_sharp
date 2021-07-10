@@ -1,0 +1,301 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {	
+	//use F3 and type the somewhat relevent thing 
+	
+	
+		//string input;
+		//print
+    //Console.WriteLine ("how old are you");
+
+		//input
+		//input = Console.ReadLine();
+
+		//print answer
+		//Console.WriteLine ("you are " + input + " years old");
+		//data types
+
+		//type 1: int(1)> a whole number
+
+		//type 2: string(kangaroo) a piece of text
+
+		//type 3: bool(true) represents the logical idea of true and false
+
+		//ones to remember
+		//1) int - whole numbers, like: 1, -56, 948
+
+		//2) double - decimal numbers, like: 239.43909, -660.01
+
+		//3) char - single characters, like: “a”, “&”, “£”
+
+		//4) string - string of characters, like: “dog”, “hello world”
+
+		//5) bool - boolean values, like: true or false
+
+		//int myage;
+		//myage = 32;
+		//string Countryname;
+		//Countryname = "netherlands";
+		//string name= "mike";
+		//Console.WriteLine(name);
+
+		//converting decimals or doubles into whole numbers
+
+		//double mydouble = 3.2;
+		//int conversion = (int)mydouble;
+		//Console.WriteLine(conversion);
+
+		//you can use arithmetic processes in c#;
+		//like: +,-,*,/.
+		//e.g. int answer = 5 + 5;
+		//Console.WriteLine(answer)
+		//this would print 10;
+
+		//also if you were to use division you would have to pay attention to the data types. if you use two whole numbers it would return a integer whereas if you used a double it would print a decimal.;
+		//e.g. Console.WriteLine(5 / 3)
+		//this would print 1
+		//whereas 
+		//Console.WriteLine(5 / 3.0)
+		//this would print 1.66667
+
+		//you will need to update variables during a program and this is simple 
+		//eg int apple=0;
+		//apple= apple + 1;
+		//Console.WriteLine(apple) - thsi would print 1;
+
+		//a shortcut to add and minus 1 is by using the apprptiate sign;
+		//eg +1 = ++;
+		//eg -1 = --;
+		// another way of increasing values and keeping code more efficient is by doing the following;
+		//int apple = 0;
+		//apple +=3;
+		// that is the same as adding 3;
+		//int apple = 2;
+		//apple +=3;
+		//Console.WriteLine(apple);  
+
+		//another C# operator is called modulo;
+		//a modulo returns a remainder during division;
+		//eg 4 % 3 = 1 as 1 is the remainder during the mathmatical process;
+		//but if we were to divide 4 by 2 the answar would be zero as it can directly divide into two;
+		// modulo is useful as it shows if a big number will fit or if there will be any left over;
+
+		// as well as this C# has some built-in methods;
+		//they are;
+		//Math.Abs()-this finds the ablosute value of a number e.g. Math.Abs(-5) would return 5;
+		//Math.Sqrt()- this finds the square root of a number;
+		//e.g. Math.Sqrt(16) would return 4;
+		//Console.WriteLine(Math.Sqrt(16));
+		//Math.Floor()- will turn a given double or decimal and round DOWN to the nearest whole number;
+		//e.g. Math.Floor(8.65) would return 8;
+		//Math.Min()— returns the smaller number of two numbers. E.g. Math.Min(39, 12) returns 12.;
+
+		//they are more built-in methods;
+		//Math.Pow()- this takes two double and raises one to a power;
+		//Math.Pow(double base, double power);
+		//Console.WriteLine(Math.Pow(3.0, 4.0));
+		//this would give you 3 to the power 4;
+
+		//there also is Math.Max() works like Math.Min but it returns the higher value number;
+		//Console.WriteLine(Math.Max(3,224));
+		//that would return 224;
+
+		//Console.WriteLine(Math.Ceiling(3.3));
+		//this rounds up
+
+		//String Concatenation
+		//adding strigns together use the "+" symbol
+		//string beginning = "Once upon a time";
+    //string middle = "the kid climbed a tree";
+    //string end = "Everyone lived happily ever after";
+		//
+		//Concatenate the string and the variables
+    //string story = beginning + ", " + middle + ". " + end + ".";
+		//
+		// Print the story to the console 
+    //Console.WriteLine(story);
+
+		//String Interpolation
+		//like Concatination just isnt easy to read but it has no need for punctuation
+		//start it with a " ($" " then whenever a variable is added jsut use { }
+		// Declare the variables
+    //string beginning = "Once upon a time,";
+    //string middle = "The kid climbed a tree";
+    //string end = "Everyone lived happily ever after.";
+		//
+		//Interpolate the string and the variables
+    //string story = $"{beginning} it was a beautiful day. {middle} and the birds flew through the sky. {end}";
+		//
+		//Print the story to the console 
+    //Console.WriteLine(story);
+
+		//to find the lenght of a string 
+		//use .lenght as a command e.g.
+		//string inputted = Console.ReadLine();
+		//inputted.lenght; - this would give the lenght of the input
+
+		//you can find the position of a specific character and sustring using the .IndexOf() command e.g.
+		//string word = "IndexOf";
+		//word.IndexOf(d); - would return 2
+		
+		//Substrings 
+		//it grabs part of a string from a specified position i.e. 2 and continues till the end then returns the new string
+		//use it after .IndexOf() as that will give you the nessacary character position
+
+		//Bracket notation 
+		//uses brackets [] and an integer value to identify a particular value in a collection. first use .IndexOf() to get the position i.e 14
+		//string plantName = "Cactaceae, Cactus";
+		//int charPosition = plantName.IndexOf("u"); // returns 15
+		//char u = plantName[charPosition]; // returns u
+
+		//String minipulation 
+		//.ToUpper() & .ToLower() will capitilise and uncapitilise strings repectivly 
+		//I.e string example = "CAPS LOCK ON".ToLower();
+		//Console.WriteLine(example); - would print caps lock on the same can be said for .ToUpper on lowercase strings
+
+		//Booleans
+		//within c# booleans True/flase values are represented as using the bool data type unlike numbers and strings they're only two data types true and false 
+		//define a boolean as bool and then its relivent data type
+		//i.e - bool BooleanExample = true
+
+		//Comparison Operators
+		//is programs youll need to check if the value is correct or compare two different values do this by using Comparison Operators 
+		//Equals is "==" if you couldnt guess. it will return true if the values arew equal 
+		//Inequality is "!=" and will retun true if the values are inequal suprisingly
+		//Less than is the less than symbol "<" and yu guessed it it will return true is the value is less than the other
+		//Greater than: rehter to less than just change less to greater and use the ">" symbol
+		//Less than or euqal to is <= aand will return true if the value is less than or equal to the other
+		//Greater than or equal to is the same as above but once again replace less than with greater and "<=" use this
+		//Example bool obviousAnswer = 1 < 100;
+		//Console.WriteLine(obviousanswer); and wouldn't you know 1 is less than 100 and would print true
+		//Example 2 bool obviousAnswerTwo = (true==false)
+		// this would return false and if you didnt know that leave
+		
+		//Truth Tables 
+		//If you look back at this these are basically logic gates like for CPU's 
+		//heres a picture "https://docs.google.com/presentation/d/1XXrRDM-Q_S3a83gHhp1xfntefCBXseBlJMOirz40FhY/edit#slide=id.p" happy now
+		//we can also use Operators that use bool values as inputs and outputs logical operators which can also be rethered to as boolean operators can be used to create boolean expressions.
+		//examples pf logical/bool operators are,
+		//AND "&&" both expressions are evaluated and will ONLY return true if both expressions are true if one is true and the other is false it will return false 
+		//OR "||" if either a or b values are true it will return true.
+		//NOT "!" basically the opposite "a = True" now it equals false.
+		//bool exampleofAND = ((4 > 1) && (2 < 7)); - (True AND True) evaluates to True
+		//bool exampleofOR = ((8 > 6) || (3 > 6)); - (True OR False) evaluates to True
+		//bool exampleOfNot = !(1 < 3); - NOT (True) evaluates to False
+
+		/*Introduction to Conditional Statements
+		//As people we make decisions based on current conditions and we can impliment that within C# with conditional statements 
+		//We’ll look at a couple of different structures that use Boolean logic to control the flow of our programs, including:
+		1.If statements
+		2.If…Else… statements
+		3.Else if statements
+		4.Switch statements
+		5.Ternary Operators*/
+		
+
+		/*If statments 
+		conditional statemnets are often used to control the structure of a program, they rely on the computer to reason whether it is true or false
+		in c# if statments are structured like this*/
+		/*
+		string GPU = "GTX 1660 super";
+		if (GPU == "GTX 1660 super");
+			Console.WriteLine("GTX 1660 super"); - this prints GTX 1660 super to the console
+		*/
+
+		/*Else statments
+		else statements follow after if statements and it works if the if statment isnt fufiled
+		use else
+		int people = 12;
+      string weather = "bad";
+
+      if (people <= 10 && weather == "nice")
+      {
+        Console.WriteLine("SaladMart");
+      } 
+      else 
+      {
+        Console.WriteLine("Soup N Sandwich");
+		//this prints out the relative statment
+		*/
+		
+		/* Theyre also is "else if" statments, they work like elif in python
+		int guests = 0;
+      if (guests >= 4)
+      {
+        Console.WriteLine("Catan");
+      }
+      else if (guests >=1)
+      {
+        Console.WriteLine("Innovation");
+      }
+      else
+      {
+        Console.WriteLine("Solitaire");
+      }
+		*/
+
+		/*Switch statments
+		using multiple else if statemnts can get messy and it is unessacary to evaluate all the conditions. switch statements allow for compact control flow structures by evaluating a single expression and executing code blocks based on a matched case
+		in C# use,
+
+		string colour;
+		switch (colour);
+		{
+			case "blue":
+			// execute if the value of color is "blue"
+      Console.WriteLine("color is blue");
+      break;
+
+			case "red":
+      // execute if the value of color is "red"
+      Console.WriteLine("color is red");
+      break;
+
+			case "green":
+      // execute if the value of color is "green"
+      Console.WriteLine("color is green");
+      break;
+			
+			default:
+      // execute if none of the above conditions are met
+      break;
+		}
+		*/
+
+		/*Ternary operators allow a compact syntax in the case of binary decisions e.g.
+		string color = "blue";
+		string result = (color == "blue") ? "blue" : "NOT blue";
+		Console.WriteLine(result);
+		
+		Parentheses: we place the boolean expression that the statement is evaluating in parentheses ().
+
+		The ? operator: make sure this comes after the statement and before the outcomes.
+
+		Colon: This separates the two possible outcomes.
+
+		int pepperLength = 4;
+    string message = pepperLength >=3.5;
+    string pepperLength = (pepperLength >=3.5) ? "ready!" : "wait a little longer"; 
+    Console.WriteLine(message);
+		*/
+
+		/* intro to methods
+		A method is a reusable set of instructions that perform a specific task. Developers use methods to make their code organized, maintainable, and repeatable.
+		I.e. functions 
+		Commands like Console.WriteLine() and Math.Min() are methods.
+		In C# we do this by adding brackets to the end of a method name.
+		Console.WriteLine();
+		Math.Min(3, 5);
+		
+
+
+
+
+
+	}
+		}
+
+		
+  }
+}
